@@ -1,0 +1,27 @@
+language_models:
+  llama2_7b:
+    deployment: llm-llama2-7b
+    llm_mode: chat
+    llm_history: off
+    description: "Llama2 is a state-of-the-art foundational large language model which was pretrained on publicly available online data sources. This chat model leverages publicly available instruction datasets and over 1 million human annotations."
+  llama2_7b_chat:
+    deployment: llm-llama2-7b-chat
+    llm_mode: chat
+    llm_history: on
+    description: "Llama2 is a state-of-the-art foundational large language model which was pretrained on publicly available online data sources. This chat model leverages publicly available instruction datasets and over 1 million human annotations."
+  codellama_7b_python:
+    deployment: llm-codellama-7b-python
+    llm_mode: code
+    llm_history: on
+    description: "Code Llama is a large language model that can use text prompts to generate and discuss code. It has the potential to make workflows faster and more efficient for developers and lower the barrier to entry for people who are learning to code."
+main_page_attributes:
+  title: "Welcome to GTS '24"
+  subheader: "Note that this lab is for demo purposes only to show connecting a chatbot app to a running LLM. The lab is not using GPU, so responses may take up to a minute and will likely produce lower quality responses than running a larger model on GPU."
+sidebar_attributes:
+  title:  "GPT-in-a-Box"
+  subheader: "Powered by NKE"
+  markdown: "GPT-in-a-Box is a turnkey AI solution for organizations wanting to implement GPT capabilities while maintaining control of their data and applications. Read the \n[announcement] \n(https://www.nutanix.com/blog/nutanix-simplifies-your-ai-innovation-learning-curve)"
+image_attribrutes:
+  assistant_svg: assistant.svg
+  user_svg: user.svg
+  logo_svg: nutanix.svg
