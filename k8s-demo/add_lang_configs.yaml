@@ -1,0 +1,31 @@
+language_models:
+  llama2_7b:
+    deployment: llm-llama2-7b
+    llm_mode: chat
+    llm_history: off
+    description: "Llama2 is a state-of-the-art foundational large language model which was pretrained on publicly available online data sources. This chat model leverages publicly available instruction datasets and over 1 million human annotations."
+  llama2_7b_chat:
+    deployment: llm-llama2-7b-chat
+    llm_mode: chat
+    llm_history: on
+    description: "Llama2 is a state-of-the-art foundational large language model which was pretrained on publicly available online data sources. This chat model leverages publicly available instruction datasets and over 1 million human annotations."
+  codellama_7b_python:
+    deployment: llm-codellama-7b-python
+    llm_mode: code
+    llm_history: on
+    description: "Code Llama is a large language model that can use text prompts to generate and discuss code. It has the potential to make workflows faster and more efficient for developers and lower the barrier to entry for people who are learning to code."
+  tiny_llama:
+    deployment: llm-tiny-llama
+    llm_mode: chat
+    llm_history: on
+    description: "[Tiny Llama](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) is a compact model with 1.1B model that can run on CPU. It uses the same architecture and tokenizer as Llama 2. It was finetuned on a variant of the UltraChat dataset."
+  mpt_7b:
+    deployment: llm-mpt-7b
+    llm_mode: chat
+    llm_history: on
+    description: "MPT-7B is a decoder-style transformer with 6.7B parameters. It was trained on 1T tokens of text and code that was curated by MosaicML’s data team. This base model includes FlashAttention for fast training and inference and ALiBi for finetuning and extrapolation to long context lengths."
+  falcon_7b:
+    deployment: llm-falcon-7b
+    llm_mode: chat
+    llm_history: on
+    description: "Falcon-7B is a 7B parameters causal decoder-only model built by TII and trained on 1,500B tokens of RefinedWeb enhanced with curated corpora."

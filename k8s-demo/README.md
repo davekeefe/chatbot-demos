@@ -18,4 +18,6 @@ Download and deploy the following models as per instructions provided in the [do
 
 Once the inference server is up, run
 
+    export KUBECONFIG=<path to kubeconfig.cfg>
+
     streamlit run chat.py
