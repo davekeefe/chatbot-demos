@@ -15,8 +15,8 @@ language_models:
     llm_history: on
     description: "Code Llama is a large language model that can use text prompts to generate and discuss code. It has the potential to make workflows faster and more efficient for developers and lower the barrier to entry for people who are learning to code."
 main_page_attributes:
-  title: "Welcome to GTS '24"
-  subheader: "Note that this lab is for demo purposes only to show connecting a chatbot app to a running LLM. The lab is not using GPU, so responses may take up to a minute and will likely produce lower quality responses than running a larger model on GPU."
+  title: "Welcome to GPT-in-a-Box Demo"
+  subheader: "Note that this demo is only to show connecting a chatbot app to a running LLM. This demo is running on GPU."
 sidebar_attributes:
   title:  "GPT-in-a-Box"
   subheader: "Powered by NKE"
